@@ -4,6 +4,12 @@ public class Student extends Person {
     private String school;
     private int grade;
 
+    public Student()
+    {
+        this.school = "Default School";
+        this.grade = 0;
+    }
+
     public Student(String school, int grade)
     {
         this.school = school;
